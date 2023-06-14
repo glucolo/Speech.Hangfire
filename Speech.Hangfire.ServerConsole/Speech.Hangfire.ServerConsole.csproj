@@ -8,9 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\Speech.Hangfire.ServerWorker\appsettings.json" Link="appsettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="..\Speech.Hangfire.WebAPI\appsettings.Development.json" Link="appsettings.Development.json" />
+    <Content Include="..\Speech.Hangfire.WebAPI\appsettings.json" Link="appsettings.json" />
   </ItemGroup>
 
   <ItemGroup>
