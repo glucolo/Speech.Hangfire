@@ -1,4 +1,9 @@
 # Speech.Hangfire
+[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/glucolo/speech.hangfire/dotnet.yml?branch=master&label=build%20master&logo=github)](https://github.com/glucolo/speech.hangfire/actions/workflows/dotnet.yml)
+[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/glucolo/speech.hangfire/dotnet.yml?branch=DEV&label=build%20DEV&logo=github)](https://github.com/glucolo/speech.hangfire/actions/workflows/dotnet.yml)
+![GitHub](https://img.shields.io/github/license/glucolo/speech.hangfire)
+
+## Overview
 Little demo for hangfire functionality and scalability
 
 ## What do you find in the solution
