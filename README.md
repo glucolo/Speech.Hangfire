@@ -19,7 +19,7 @@ I've created a Layered Architecture solution with three main projects:
 ## How execute the examples
 The start project is a **ASP.NET web.api** with swagger documentation to test and call Hangfire funzionality.
 
-After starting the project, the browser will open on the swagger page, open another browser tab with same url and substitute "--swagger--" word with "--hangfire--" word
+After starting the project, the browser will open on the swagger page, open another browser tab with same url and substitute "*swagger*" word with "*hangfire*" word
 
 <details>
   
