@@ -31,7 +31,7 @@ The start project is a **ASP.NET Web.API** with swagger documentation to test an
 After starting the project, the browser will open on the swagger page, open another browser tab with same URL and substitute "*swagger*" word with "*hangfire*" word
 
 <details>
-<br /> 
+<br />
 <summary>Unique process</summary>
 
 In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
@@ -45,7 +45,7 @@ Run WebApi project
 <details>
 <br />
 <summary>Unique process with more workers</summary>
-    
+
 In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
 - row 39 have to be commented
 - row 43 have to be uncommented
