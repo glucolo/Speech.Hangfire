@@ -16,22 +16,22 @@ I've created a Layered Architecture solution with three main projects:
     This is the starting point for the "Unique project demo" and/or "Web client component"
 
 - Speech.Hangfire.ServerConsole
-      
+
     This is the "Server component"
 
 - Speech.Hangfire.Business
-     
+
     This is the "Business component" that contains only the static methods, instance methods used as jobs
     <!-- -->
-    
+
 ## How execute the examples
 The start project is a **ASP.NET Web.API** with swagger documentation to test and call Hangfire funzionality.
 
 After starting the project, the browser will open on the swagger page, open another browser tab with same URL and substitute "*swagger*" word with "*hangfire*" word
 
 <details>
-  
-  ###   
+
+###   
   <summary>Unique process</summary>
 
   In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
@@ -43,7 +43,7 @@ After starting the project, the browser will open on the swagger page, open anot
 </details>
 <details>
 
-  ###   
+###   
   <summary>Unique process with more workers</summary>
 
   In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
@@ -56,7 +56,7 @@ After starting the project, the browser will open on the swagger page, open anot
 </details>
 <details>
 
-  ###   
+###   
   <summary>Unique process with always run job</summary>
 
   In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
@@ -68,7 +68,7 @@ After starting the project, the browser will open on the swagger page, open anot
 </details>
 <details>
 
-  ###   
+###   
   <summary>Separated process</summary>
 
   In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
