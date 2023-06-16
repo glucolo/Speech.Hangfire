@@ -1,3 +1,4 @@
+
 # Speech.Hangfire
 [![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/glucolo/speech.hangfire/dotnet.yml?branch=master&label=build%20master&logo=github)](https://github.com/glucolo/speech.hangfire/actions/workflows/dotnet.yml)
 [![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/glucolo/speech.hangfire/dotnet.yml?branch=DEV&label=build%20DEV&logo=github)](https://github.com/glucolo/speech.hangfire/actions/workflows/dotnet.yml)
@@ -30,53 +31,52 @@ The start project is a **ASP.NET Web.API** with swagger documentation to test an
 After starting the project, the browser will open on the swagger page, open another browser tab with same URL and substitute "*swagger*" word with "*hangfire*" word
 
 <details>
+<br /> 
+<summary>Unique process</summary>
 
-###   
-  <summary>Unique process</summary>
-
-  In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
-  - row 39 have to be uncommented
-  - rows 43,46,47 have to be commented
-  <!-- -->
-  Run WebApi project
-  ***
+In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
+- row 39 have to be uncommented
+- rows 43,46,47 have to be commented
+<!-- -->
+Run WebApi project
+***
 </details>
+
 <details>
-
-###   
-  <summary>Unique process with more workers</summary>
-
-  In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
-  - row 39 have to be commented
-  - row 43 have to be uncommented
-  - rows 46,47 have to be commented
-  <!-- -->
-  Run WebApi project
-  ***
+<br />
+<summary>Unique process with more workers</summary>
+    
+In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
+- row 39 have to be commented
+- row 43 have to be uncommented
+- rows 46,47 have to be commented
+<!-- -->
+Run WebApi project
+***
 </details>
+
 <details>
+<br />
+<summary>Unique process with always run job</summary>
 
-###   
-  <summary>Unique process with always run job</summary>
-
-  In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
-  - row 39,43 have to be commented
-  - rows 46,47 have to be uncommented
-  <!-- -->
-  Run WebApi project
-  ***
+In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
+- row 39,43 have to be commented
+- rows 46,47 have to be uncommented
+<!-- -->
+Run WebApi project
+***
 </details>
+
 <details>
+<br />
+<summary>Separated process</summary>
 
-###   
-  <summary>Separated process</summary>
-
-  In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
-  - rows 39,43,46,47 have to be commented
-  <!-- -->
-  In **Speech.Hangfire.ServerConsole** projects, open **program.cs** file:
-  - row 33 or 34 have to be commented
-  <!-- -->
-  Run both WebApi project and ServerConsole project
-  ***
+In **Speech.Hangfire.WebAPI** projects, open **program.cs** file:
+- rows 39,43,46,47 have to be commented
+<!-- -->
+In **Speech.Hangfire.ServerConsole** projects, open **program.cs** file:
+- row 33 or 34 have to be commented
+<!-- -->
+Run both WebApi project and ServerConsole project
+***
 </details>
