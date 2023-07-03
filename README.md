@@ -8,7 +8,7 @@
 ![GitHub](https://img.shields.io/github/license/glucolo/speech.hangfire)
 
 ## Overview
-Little demo for hangfire functionality and scalability
+Little demo for hangfire functionality and scalability. I propose two scenario: unique solution with ASP.NET. Multi-Layered application with ASP.NET client, handfire server and business logic. 
 
 ## What do you find in the solution
 I've created a Layered Architecture solution with three main projects:
