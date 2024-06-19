@@ -26,7 +26,7 @@ I've created a Layered Architecture solution with three main projects:
     <!-- -->
 
 ## How execute the examples
-The start project is a **ASP.NET Web.API** with swagger documentation to test and call Hangfire funzionality.
+The start project is **ASP.NET Web.API** with swagger documentation to test and call Hangfire functionality.
 
 After starting the project, the browser will open on the swagger page, open another browser tab with same URL and substitute "*swagger*" word with "*hangfire*" word
 
